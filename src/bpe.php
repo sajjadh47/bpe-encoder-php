@@ -90,7 +90,7 @@ class BPE
         // - we are special casing a few common apostrophe constructs ('s, 't, 're, ...) and making those into separate tokens
         // - we then separate out strings into consecutive chunks of 1) letters, 2) numbers, 3) non-letter-numbers, 4) whitespaces
         
-        $this->regex_pattern = "/'s|'t|'re|'ve|'m|'ll|'d| ?\p{L}+| ?\p{N}+| ?[^\s\p{L}\p{N}]+|\s+(?!\S)|\s+/";
+        $this->regex_pattern = "/(?:\\\\u[a-f0-9]+)+|\'[stdm]|\'[rv]e|\'ll| ?\p{L}+| ?\p{N}+| ?(?!\\\\u[a-f0-9]+\b)[^\s\p{L}\p{N}]+|\s+(?!\S)|\s+/m";
         
         $this->cache = [];
     }
