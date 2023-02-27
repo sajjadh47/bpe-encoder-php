@@ -1,0 +1,21 @@
+{
+    "name": "sajjadh47/bpe-encoder-php",
+    "description": "BPE (Byte-Pair Encoding) Encoder Decoder for OpenAI's GPT-2 / GPT-3 Implemented In Pure PHP, Zero Dependency, Multi Byte Supported.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "sajjadh47\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sajjad Hossain Sagor",
+            "email": "sagorh672@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    }
+}
