@@ -1,6 +1,6 @@
 <?php
 
-namespace SajjadHSagor;
+namespace sajjadh47;
 
 /**
  * bpe is short for Byte Pair Encoder. It translates arbitrary utf-8 strings into
