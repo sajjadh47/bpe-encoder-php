@@ -16,7 +16,7 @@ Minimum PHP Version For This Package Is >= 7.4 With `mb_*` [functions](https://w
 
 include 'vendor/autoload.php';
 
-use SajjadHSagor\BPE;
+use sajjadh47\BPE;
 
 $BPE = new BPE();
 
